@@ -1,0 +1,29 @@
+ @import url('main-style.css');
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 0px;
+}
+
+.item {
+    padding: 20px;
+    margin: 10px;
+    background-color: #efd8e1;
+    border-radius: 10px;
+}
+
+.item p {
+    text-align: center;
+    color: #3d3d3d;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}

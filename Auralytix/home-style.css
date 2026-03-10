@@ -1,0 +1,121 @@
+ @import url('main-style.css');
+
+body {
+    overflow-x: hidden;
+ }
+#petalCanvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+ .container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: auto;
+     gap: 20px;
+     padding: 50px 20px;
+     background-color: #fff9f6;
+ }
+
+ .intro {
+     background-color: #efd8e1;
+     color: #3d3d3d;
+     grid-column: 1 / span 2;
+     padding: 20px;
+     border-radius: 12px;
+     position: relative;
+     z-index: 1;
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 12px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .intro a {
+     background-color: #cbbfd3;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 20px;
+     margin-top: 10px;
+ }
+
+ .intro a:hover {
+     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8);
+ }
+
+ .aside {
+     grid-column: 3 / 4;
+     grid-row: 1 / span 2;
+     align-self: start;
+     justify-self: start;
+     max-width: 100%;
+     height: 100%;
+     position: relative;
+     z-index: 1;
+ }
+
+ .float1 {
+     grid-column: 4 / 5;
+     grid-row: 1 / 2;
+     align-self: start;
+     justify-self: start;
+     max-width: 100%;
+     position: relative;
+     z-index: 1;
+ }
+
+ .float2 {
+     grid-column: 4 / 5;
+     grid-row: 2 / 3;
+     align-self: start;
+     justify-self: start;
+     max-width: 100%;
+     position: relative;
+     z-index: 1;
+ }
+
+ .section {
+     grid-column: 1 / 2;
+     grid-row: 2 / 3;
+     align-self: start;
+     justify-self: start;
+     position: relative;
+     z-index: 1;
+ }
+
+ .section2 {
+     grid-column: 2 / 3;
+     grid-row: 2 / 3;
+     align-self: start;
+     justify-self: start;
+     position: relative;
+     z-index: 1;
+ }
+
+ .aside img,
+ .section img,
+ .section2 img,
+ .float1 img,
+ .float2 img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     border-radius: 10px;
+ }
+
+ img {
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 12px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ img:hover {
+     transform: translateY(-5px);
+     /* naik sikit ke atas */
+     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
+ }

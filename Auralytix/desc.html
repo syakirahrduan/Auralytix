@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="products-style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="map-style.css">
+
+    <style>
+
+        .desc-section {
+            display: flex;
+            margin: 70px;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .info-section {
+            background-color: #efd8e1;
+            margin: 70px;
+            padding: 50px;
+        }
+    
+    </style>
+</head>
+<body class="fade-in">
+  <div id="header"></div>
+  
+    <div class="desc-section">
+      <div><img id="product-image" src="" alt="Product Image"></div>
+      <div class="info-section">
+        <h1 id="product-name"></h1>
+        <p><strong>Price:</strong> <span id="product-price"></span></p>
+        <p><strong>Skin Type:</strong> <span id="product-skin"></span></p>
+        <p><strong>Description:</strong></p>
+        <p id="product-desc"></p>
+     </div>
+    </div>
+
+
+  <div id="footer"></div>
+  <script src ="main.js" defer></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+    <script src="desc.js"></script>
+    
+</body>
+</html>

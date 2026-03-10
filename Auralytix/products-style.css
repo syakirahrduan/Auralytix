@@ -1,0 +1,65 @@
+@import url('main-style.css');
+
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.search {
+  width: 200px;
+  border: 1px solid #cbbfd3;
+  border-radius: 12px;
+  margin-left: 10px;
+  color: #cbbfd3;
+  padding: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  padding: 1rem 2rem;
+}
+
+.product-link {
+  text-decoration: none;
+}
+
+.product-box {
+  background-color: #efd8e1;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 12px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.product-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.contact-icons span {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+img {
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 12px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ img:hover {
+     transform: translateY(-5px);
+     /* naik sikit ke atas */
+     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
+ }

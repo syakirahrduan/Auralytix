@@ -1,0 +1,86 @@
+<!-- footer.html -->
+<html>
+<head>
+  <style>
+    .footer {
+      margin-top: 0;
+      background-color: #dbcde2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .footer-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: #3d3d3d;
+    }
+
+    .footer-icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    footer img {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    footer img:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    #floating-map-link {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #b49dc6;
+      color: white;
+      padding: 10px 14px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(141, 119, 159, 0.5);
+      z-index: 9999;
+      transition: transform 0.3s ease;
+    }
+
+    #floating-map-link:hover {
+      transform: scale(1.05);
+      background-color: #8f77a5;
+    }
+  </style>
+</head>
+
+<body>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-item">
+        <img src="images/phone.png" class="footer-icon"><span>+60 13-621 4161</span>
+      </div>
+
+      <div class="footer-item">
+        <a href="mailto:auralytix@gmail.com"><img src="images/email.png" class="footer-icon"></a><span>auralytix@gmail.com</span>
+      </div>
+    </div>
+
+    <a href="map.html" id="floating-map-link">
+      <img src="images/mapIcon.png" alt="Map icon" style="height: 20px; margin-right: 8px; width: 24px;" />
+      <span>Find Store Nearby!</span>
+    </a>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+[
+{
+    "Name": "Innisfree Jeju Cherry Blossom Tone Up Cream",
+    "Price": "RM60.00",
+    "Description":"A lightweight cream formulated with Jeju Cherry Blossom leaf extracts and naturally-derived Betaine which leaves you with a natural, glowing finish after application.",
+    "Skin Type": "Acne Prone"
+},
+
+{
+    "Name": "Innisfree Cherry Blossom Glow Jelly Cream",
+    "Price": "RM95.00",
+    "Description": "A clear water-jelly cream with bouncy texture, formulated with Jeju Cherry Blossom leaf extracts for instant brightening effect and naturally-derived Betaine which hydrates skin for a dewy, glowing finish.",
+    "Skin Type": "Dry"
+},
+
+{
+    "Name": "Innisfree Blueberry Balancing Cleansing Water",
+    "Price": "RM46.00",
+    "Description": "The sub-acidic formula with centella asiatica extract helps adjust the pH and find oil-moisture balance to keep skin healthy and moist without any tightness, even after cleansing.",
+    "Skin Type": "Oily"
+},
+
+{
+    "Name": "Innisfree Black Tea Youth Enhancing Ampoule",
+    "Price": "RM168.00",
+    "Description": "Anti aging ampoule provides intensive anti-aging care with Reset Concentrate that relieves signs of skin fatigue after a ling, tiring day and boosts the skin's vitality and radiance as if you'd had a goos night's sleep.",
+    "Skin Type": "Acne Prone"
+},
+
+{
+    "Name": "Innisfree Cherry Blossom Glow Tone-Up Cream(Skin-Fit)",
+    "Price": "RM99.00",
+    "Description": "A hydrating and vitalising tone-up cream that has a lightweight, moist liquid lotion texture, giving your complexion an instant lift!",
+    "Skin Type": "Oily"
+},
+
+{
+    "Name": "Innisfree Dewy Glow Toner With Jeju Cherry BLossom",
+    "Price": "RM126.00",
+    "Description": "Moisturizing and vitalizing toner that takes care of dull skin tones and brings back hidden pink vitality.",
+    "Skin Type": "Oily"
+},
+
+{
+    "Name": "Innisfree Matte Priming UV Shield Sunscreen SPF 37",
+    "Price": "RM76.00",
+    "Description": "A primer and suncscreen in one. The sunscreen helps even out skin texture and allows makeup to go on smoother and last longer.",
+    "Skin Type": "Dry"
+},
+
+{
+    "Name": "Innisfree Cherry BLossom Glow Jam Cleanser",
+    "Price": "RM99.00",
+    "Description": "A mild, bouncy gel cleanser with Cherry Blossom Extract and betaine that leaves skin glowing and feeling hydrated.",
+    "Skin type": "Oily"
+},
+
+{
+    "Name": "Innisfree Super Volcanic Pore Clay Mask",
+    "Price": "RM67.50",
+    "Description": "This multi-action, rinse-off clay mask formulated with Jeju Volcanic Clusters & Spheres™ cools skin upon contact, absorbs excess oil for visibly smaller pores, all while helping to improve the overall look and texture of the skin.",
+    "Skin Type": "Acne Prone"
+},
+
+{
+    "Name": "Innisfree Tone Up Watering Sunscreen SPF 50",
+    "Price": "RM80.00",
+    "Description": "Natural and white cast-free brightness. The formula with Vitamin C derivative corrects the skin tone for a brigher appearance.",
+    "Skin Type": "Dry"
+},
+
+{
+    "Name": "Innisfree Dewy Glow Mist with Jeju Cherry Blossom",
+    "Price": "RM96.00",
+    "Description": "A fine mist which helps to visibly brighten and soothe dryness with replenishing hydration",
+    "Skin Type": "Oily"
+},
+
+{
+    "Name": "Innisfree Youth Enriched Serum with Orchid",
+    "Price": "RM98.00",
+    "Description": "Serum with 34 ingredients that contains exfoliants, hyaluronic acid, niacinamide and Vitamin E.",
+    "Skin Type": "Oily"
+},
+
+{
+    "Name": "Innisfree Youth Enriched Cream with Orchid",
+    "Price": "RM87.00",
+    "Description": "A daily rejuvenating cream with Jeju Orchid and a blend of peptide + adenosine for visibly hydrated, glowing skin.",
+    "Skin Type": "Acne Prone"
+},
+
+{
+    "Name": "Innisfree Hyaluron Moist Sunscreen SPF 50",
+    "Price": "RM90.00",
+    "Description": "Formulated with 8 hyaluronic acids, protect your skin from the sun and moisturise it simultaneously! A great choice for a daily hydrating sunscreen no matter what weather it is!",
+    "Skin type": "Dry"
+},
+
+{
+    "Name": "Innisfree Jeju Orchid Enriched Cream",
+    "Price": "RM148.00",
+    "Description": "An intensive firming cream with Orchidelixir 2.0™ that provides 5-in-1 anti-aging solution for elasticity, wrinkles, skin tone, dryness, and pores. It also contains of hyaluronic acid and Jeju soy bean peptides that nourish, firm, smooth, strengthen and brighten skin.",
+    "Skin Type": "Dry"
+}
+]

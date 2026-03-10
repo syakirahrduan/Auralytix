@@ -1,0 +1,20 @@
+{
+  "concern": {
+    "Dryness": "Dry",
+    "Oily": "Oily",
+    "Acne": "Acne Prone",
+    "Sensitivity": "Sensitive",
+    "Wrinkles": "Aging / Dull",
+    "Dark spots": "Normal",
+    "None": "Normal"
+  },
+  "frequency": {
+    "Daily": "Acne Prone"
+  },
+  "sensitivity": {
+    "Yes": "Sensitive"
+  },
+  "redness": {
+    "Often": "Sensitive"
+}
+}

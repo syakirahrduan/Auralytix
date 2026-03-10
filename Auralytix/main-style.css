@@ -1,0 +1,23 @@
+/*fonts and background is consistent throughout every pages so we dont have to repeat the same 
+font links & body style for every html&css file */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+
+body {
+    background-color: #fff9f6;
+    margin: 0;
+    font-family: "Jost", sans-serif;
+}
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

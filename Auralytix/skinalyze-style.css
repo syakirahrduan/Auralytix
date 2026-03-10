@@ -1,0 +1,84 @@
+@import url('main-style.css');
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 40px auto 10px auto;
+  flex-wrap: wrap;
+}
+
+.step {
+  text-align: center;
+}
+
+.step img {
+  height: 80px
+}
+
+form {
+  max-width: 600px;
+  margin: 0px auto 25px auto;
+  background-color: #faeaf0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #edd4de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-center {
+  text-align: center;
+}
+
+/* .result-container {
+    display: block;
+    margin: 89.5px;
+    text-align: center;
+  } */
+
+.result-container {
+  display: block;
+  margin: 0;
+  padding : 0; /* ← remove margin so it stays inside the pink form */
+  text-align: center;
+}
+
+.result-container h2 {
+  text-align: center;
+  font-size : 20px;
+}
+
+/*.result-box {
+  background: #fff7f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+} */
+
+.result-box {
+  background: #fff7f5;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 100%; /* full width inside form */
+  margin: 10px auto; /* add some spacing between boxes */
+}
+
+.result-box img {
+  width: 80px;
+  margin-bottom: 10px;
+}

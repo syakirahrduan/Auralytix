@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="home-style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="map-style.css">
+</head>
+<body>
+    <div id="header" class="fade-in"></div>
+
+    <div class="container fade-in">
+        <div class="intro fade-in">
+            <h3>Unveil the science behind your skin</h3>
+            <p>In a world where every skin is unique, Auralytix guides you through the quiet glow of clarity.</p>
+            <p>Powered by intelligent analysis and refined aesthetics, we help you understand your skin’s silent language — and respond with the care it truly deserves.</p>
+            <p><em>Let your skin speak. Let Auralytix listen.</em></p>
+            <a href="skinalyze.html" target="_self" class="fade-in">ANALYZE YOUR SKIN NOW</a>
+        </div>
+        
+        <div class="aside">
+            <img src="images/aside.jpeg" alt="Auralytix aside image" class="fade-in">
+        </div>
+
+        <div class="float1">
+            <img src="images/float1.jpeg" alt="Auralytix float image" class="fade-in">
+        </div>
+
+        <div class="float2">
+            <img src="images/float2.jpeg" alt="Auralytix float image" class="fade-in">
+        </div>
+
+        <div class="section">
+            <img src="images/sectpic.jpeg" alt="Auralytix section image" class="fade-in">
+        </div>
+
+        <div class="section2">
+            <img src="images/section2.jpeg" alt="Auralytix float image" class="fade-in">
+        </div>
+    </div>
+
+    <div id="footer" class="fade-in"></div>
+    <!-- petal letak dekat bawah sbb nak bagi header,footer html tu load dulu -->
+    <canvas id="petalCanvas" style="position: fixed; top: 0; left: 0; pointer-events: none; z-index: 0;"></canvas>
+    <script src ="petal.js"></script>
+    <script src ="main.js" defer></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>

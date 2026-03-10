@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Skinalyze</title>
+  <link rel="stylesheet" href="skinalyze-style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body class="fade-in">
+
+   <div id="header"></div>
+
+   <section class="fade-in">
+    <div class="step">
+      <img src="images/step1.png" alt="Step 1" />
+      <p><strong>Step 1</strong><br>Share with us your current skin condition</p>
+    </div>
+
+    <div class="step">
+      <img src="images/step2.png" alt="Step 2" style="height:75px;"/>
+      <p><strong>Step 2</strong><br>Get your skin analysis results and a customised routine</p>
+    </div>
+  </section>
+
+  <form id="skinForm" class="fade-in">
+  <div id="form-content">
+    <div class="form-section">
+      <label>1. What is your biggest skin concern?</label><br>
+      <input type="radio" name="concern" value="Dryness" /> Dryness<br>
+      <input type="radio" name="concern" value="Acne" /> Acne / Breakout<br>
+      <input type="radio" name="concern" value="Oily" /> Clogged pores / Oily<br>
+      <input type="radio" name="concern" value="Dark spots" /> Dark spots / Dullness<br>
+      <input type="radio" name="concern" value="Wrinkles" /> Aging / Wrinkles<br>
+      <input type="radio" name="concern" value="Sensitivity" /> Sensitivity<br>
+      <input type="radio" name="concern" value="None" /> None<br>
+    </div>
+
+    <div class="form-section">
+      <label>2. How frequently do you have new inflamed pimples?</label><br>
+      <input type="radio" name="frequency" value="Daily" /> Daily<br>
+      <input type="radio" name="frequency" value="Weekly" /> Weekly<br>
+      <input type="radio" name="frequency" value="Monthly" /> Monthly<br>
+      <input type="radio" name="frequency" value="Rarely" /> Rarely<br>
+    </div>
+
+    <div class="form-section">
+      <label>3. Does your skin usually react whenever you use new skin care products?</label><br>
+      <input type="radio" name="react" value="Yes" /> Yes, most of the time<br>
+      <input type="radio" name="react" value="Sometimes" /> Sometimes<br>
+      <input type="radio" name="react" value="No" /> No<br>
+    </div>
+
+    <div class="form-section">
+      <label>4.How often do you experience redness or itchiness?</label><br>
+      <input type="radio" name="redness" value="Often" /> Very often<br>
+      <input type="radio" name="redness" value="Sometimes" /> Sometimes<br>
+      <input type="radio" name="redness" value="Rarely" /> Rarely<br>
+    </div>
+
+    <div class="button-center">
+    <button type="submit">SUBMIT</button></div>
+  </div>
+
+  <div id="result-content" class="result-container" style="display:none;">
+
+  <div class="result-box">
+    <h2>Your Skin Profile Summary</h2>
+    <img src="images/summary.png" alt="Skin Icon" />
+    <p><strong>Skin Concern : </strong> <span id="skinConcernResult"></span></p>
+    <p><strong>Pimple Frequency : </strong> <span id="frequencyResult"></span></p>
+    <p><strong>Skin Sensitivity : </strong> <span id="sensitivityResult"></span></p>
+  </div>
+  
+  <div class="result-box">
+    <h2>Your Skin Type</h2>
+    <img src="images/skintype.png" alt="skintype" />
+    <p><strong>Your Skin Type:</strong> <span id="skinTypeResult"></span></p>
+  </div>
+
+  <div class="result-box">
+    <h2>Explore products filtered by your skin type</h2>
+    <img src="images/suggest.png" alt="Filter Icon" />
+    <p><strong>Use the search bar and choose:</strong> <span id="skinTypeSearch"></span></p>
+  </div>
+</div>
+
+</form>
+
+  <div id="footer"></div>
+  <script src="main.js"></script>
+</body>

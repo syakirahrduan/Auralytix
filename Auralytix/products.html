@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="products-style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <link rel="stylesheet" href="map-style.css">
+</head>
+
+<body class="fade-in">
+  <div id="header"></div>
+
+  <div class="filter-container">
+    <label for="skinType"><img src="imagesProd/searchLogo.png" height="30" width="30" alt="Search icon"></label>
+    <select class="search" id="skinType">
+      <option value="0">Skintype</option>
+      <option value="dry">Dry</option>
+      <option value="oily">Oily</option>
+      <option value="acne">Acne Prone</option>
+      <option value="sensitive">Sensitive</option>
+      <option value="aging">Aging/Dull</option>
+      <option value="normal">Normal</option>
+
+    </select>
+  </div>
+
+  <div class="grid-container fade-in">
+    <a href="desc.html?index=0" class="product-link"><div class="product-box fade-in" data-skintype="oily normal aging"><img src = "imagesProd/prod1.jpeg"></div></a>
+    <a href="desc.html?index=1" class="product-link"><div class="product-box fade-in" data-skintype="dry sensitive"><img src = "imagesProd/prod2.jpg"></div></a>
+    <a href="desc.html?index=2" class="product-link"><div class="product-box fade-in" data-skintype="acne sensitive"><img src = "imagesProd/prod3.jpeg"></div></a>
+    <a href="desc.html?index=3" class="product-link"><div class="product-box fade-in" data-skintype="sensitive acne"><img src = "imagesProd/prod4.jpeg"></div></a>
+    <a href="desc.html?index=4" class="product-link"><div class="product-box fade-in" data-skintype="aging dry oily"><img src = "imagesProd/prod5.jpg"></div></a>
+    <a href="desc.html?index=5" class="product-link"><div class="product-box fade-in" data-skintype="oily normal aging"><img src = "imagesProd/prod6.jpg"></div></a>
+    <a href="desc.html?index=6" class="product-link"><div class="product-box fade-in" data-skintype="normal aging oily"><img src = "imagesProd/prod7.jpg"></div></a>
+    <a href="desc.html?index=7" class="product-link"><div class="product-box fade-in" data-skintype="acne oily"><img src = "imagesProd/prod8.jpg"></div></a>
+    <a href="desc.html?index=8" class="product-link"><div class="product-box fade-in" data-skintype="aging normal"><img src = "imagesProd/prod9.jpg"></div></a>
+    <a href="desc.html?index=9" class="product-link"><div class="product-box fade-in" data-skintype="dry sensitive acne"><img src = "imagesProd/prod10.jpg"></div></a>
+    <a href="desc.html?index=10" class="product-link"><div class="product-box fade-in" data-skintype="normal oily"><img src = "imagesProd/prod11.jpg"></div></a>
+    <a href="desc.html?index=11" class="product-link"><div class="product-box fade-in" data-skintype="normal sensitive"><img src = "imagesProd/prod12.jpg"></div></a>
+    <a href="desc.html?index=12" class="product-link"><div class="product-box fade-in" data-skintype="acne sensitive dry"><img src = "imagesProd/prod13.jpg"></div></a>
+    <a href="desc.html?index=13" class="product-link"><div class="product-box fade-in" data-skintype="sensitive acne dry"><img src = "imagesProd/prod14.jpg"></div></a>
+    <a href="desc.html?index=14" class="product-link"><div class="product-box fade-in" data-skintype="aging dry"><img src = "imagesProd/prod15.jpg"></div></a>
+  </div>
+
+  <div id="footer"></div>
+  <script src ="main.js" defer></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+    <script src="products.js"></script>
+
+</body>
+</html>
