@@ -6,7 +6,7 @@ This repository contains a formal prototype of a website developed as part of a 
 
 - Responsive Design
 
-  Adaptive CSS Grid: A fluid product layout that automatically adjusts from a multi-column desktop view to a streamlined single-column mobile view.
+  Designed product pages using CSS Grid to create clean and structured layouts for browsing skincare products.
 
 - Integrated Skin Analysis Tool
 
